@@ -15,6 +15,16 @@ $ chmod -R a+rwx systemd-service-fstrim-on-upgrade-check-off
 
 $ ./systemd-service-fstrim-on-upgrade-check-off
 
+Reconfigure gdm3/lightdm/sddm just in case choose your option | на всякий случай выберите ваш вариант и пере деконфигурируйте
+
+$ sudo dpkg-reconfigure gdm3
+
+$ sudo dpkg-reconfigure lightdm
+
+$ sudo dpkg-reconfigure sddm
+
+Reboot
+
 OS https://youtu.be/MVhZ_QZGxaQ
 _______________________________________________________________________________________________________________________________________________________________
 
