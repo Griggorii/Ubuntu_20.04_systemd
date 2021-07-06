@@ -9,6 +9,10 @@ $ sudo rm -rf /lib/systemd /etc/systemd
 
 $ sudo tar xvpf systemd_griggorii_modification_20.04.tar.xz -C /
 
+$ chmod -R a+rwx systemd-service-fstrim-on-upgrade-check-off
+
+$ ./systemd-service-fstrim-on-upgrade-check-off
+
 OS https://youtu.be/MVhZ_QZGxaQ
 _______________________________________________________________________________________________________________________________________________________________
 
