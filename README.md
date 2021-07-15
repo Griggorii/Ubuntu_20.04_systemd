@@ -37,7 +37,7 @@ Eng: Attention ! all information that you write off refers to the research of gr
 
 /etc/systemd/system
 
-# OFF superfluous
+# OFF superfluous | выключение лишних сервисов
 
 sudo systemctl disable cron
 
@@ -75,7 +75,7 @@ sudo systemctl disable ssh2
 
 sudo systemctl disable lm_sensors
 
-# On superfluous
+# On superfluous | включение сервисов
 
 sudo systemctl enable cron
 
