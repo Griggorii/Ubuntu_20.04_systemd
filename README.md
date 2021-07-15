@@ -27,9 +27,9 @@ OS https://youtu.be/MVhZ_QZGxaQ
 
 ______________________________________________________________________________________________________________________________________________
 
-                                       Griggorii@gmail.com выключение некоторых пока лишних сервисов сработает после перезагрузки
+                       Griggorii@gmail.com выключение некоторых пока лишних сервисов сработает после перезагрузки
                                        
-                                       Griggorii@gmail.com turning off some of the unnecessary services will work after reboot
+                       Griggorii@gmail.com turning off some of the unnecessary services will work after reboot
 
 RUS: Внимание ! всю информацию которую вы списываете относится к исследованиям griggorii как к авторскому праву и документу любое перекопирование с указанием ссылки на исследования от griggorii
 
