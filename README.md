@@ -51,9 +51,9 @@ sudo systemctl disable avahi-daemon
 
 sudo systemctl disable binfmt-support
 
-sudo systemctl disable cups-browsed
+sudo systemctl disable cups-browsed | осторожно относится к принтеру если нету принтера
 
-sudo systemctl disable cups
+sudo systemctl disable cups | осторожно относится к принтеру если нету принтера
 
 sudo systemctl disable secureboot-db
 
