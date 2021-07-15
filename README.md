@@ -24,7 +24,105 @@ $ sudo dpkg-reconfigure sddm
 Reboot
 
 OS https://youtu.be/MVhZ_QZGxaQ
-_______________________________________________________________________________________________________________________________________________________________
+
+______________________________________________________________________________________________________________________________________________
+
+                                       Griggorii@gmail.com выключение некоторых пока лишних сервисов сработает после перезагрузки
+                                       
+                                       Griggorii@gmail.com turning off some of the unnecessary services will work after reboot
+
+RUS: Внимание ! всю информацию которую вы списываете относится к исследованиям griggorii как к авторскому праву и документу любое перекопирование с указанием ссылки на исследования от griggorii
+
+Eng: Attention ! all information that you write off refers to the research of griggorii as a copyright and document any copying with a link to the research from griggorii
+
+/etc/systemd/system
+
+# OFF superfluous
+
+sudo systemctl disable cron
+
+sudo systemctl disable libvirt-guests
+
+sudo systemctl disable libvirtd
+
+sudo systemctl disable rsync
+
+sudo systemctl disable avahi-daemon
+
+sudo systemctl disable binfmt-support
+
+sudo systemctl disable cups-browsed
+
+sudo systemctl disable cups
+
+sudo systemctl disable secureboot-db
+
+sudo systemctl disable remote-fs
+
+sudo systemctl disable machines
+
+sudo systemctl disable qemu-kvm
+
+sudo systemctl disable anacron
+
+sudo systemctl disable gpu-manager
+
+sudo systemctl disable sshd
+
+sudo systemctl disable ssh
+
+sudo systemctl disable ssh2
+
+sudo systemctl disable lm_sensors
+
+# On superfluous
+
+sudo systemctl enable cron
+
+sudo systemctl enable libvirt-guests
+
+sudo systemctl enable libvirtd
+
+sudo systemctl enable rsync
+
+sudo systemctl enable avahi-daemon
+
+sudo systemctl enable binfmt-support
+
+sudo systemctl enable cups-browsed
+
+sudo systemctl enable cups
+
+sudo systemctl enable secureboot-db
+
+sudo systemctl enable remote-fs
+
+sudo systemctl enable machines
+
+sudo systemctl enable qemu-kvm
+
+sudo systemctl enable anacron
+
+sudo systemctl enable gpu-manager
+
+sudo systemctl enable sshd
+
+sudo systemctl enable ssh
+
+sudo systemctl enable ssh2
+
+sudo systemctl enable lm_sensors
+
+# Danger ! OFF internet systemd 
+
+sudo systemctl disable systemd-resolved
+
+# ON internet systemd
+
+sudo systemctl enable systemd-resolved
+
+______________________________________________________________________________________________________________________________________________
+
 
 New glibc wayland not freeze https://github.com/Griggorii/glibc-2.31_all.deb_package_version_libc6-prof_2.31-0ubuntu9.2_amd64.deb_ubuntu_20.04_focal_fossa
 
