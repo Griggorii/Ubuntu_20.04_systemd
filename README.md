@@ -113,11 +113,11 @@ sudo systemctl enable ssh2
 
 sudo systemctl enable lm_sensors
 
-# Danger ! OFF internet systemd 
+# Danger ! OFF internet systemd reboot
 
 sudo systemctl disable systemd-resolved
 
-# ON internet systemd
+# ON internet systemd reboot
 
 sudo systemctl enable systemd-resolved
 
