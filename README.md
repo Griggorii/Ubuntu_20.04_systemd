@@ -1,6 +1,8 @@
 # ubuntu_20.04_systemd
 ubuntu , zfs , systemd , fb , 20.04
 
+Check /usr/lib/x86_64-linux-gnu/libc-2.31.so 
+
 Ubuntu 20.04 backup original sytemd home folder command:
 
 $ cd ~/ && sudo XZ_OPT=-9 tar -Jcvf systemd-original-backup.tar.xz /lib/systemd /etc/systemd && cd -
