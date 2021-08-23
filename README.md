@@ -3,15 +3,9 @@ ubuntu , zfs , systemd , fb , 20.04
 
 Check /usr/lib/x86_64-linux-gnu/libc-2.31.so 
 
-Ubuntu 20.04 backup original sytemd home folder command:
+Ubuntu 20.04 
 
-$ cd ~/ && sudo XZ_OPT=-9 tar -Jcvf systemd-original-backup.tar.xz /lib/systemd /etc/systemd && cd -
-
-$ sudo rm -rf /usr/lib/systemd /etc/systemd
-
-$ sudo tar xvpf systemd_griggorii_modification_20.04.tar.xz -C /
-
-$ chmod -R a+rwx systemd-service-fstrim-on-upgrade-check-off
+Deb package https://github.com/Griggorii/Ubuntu_20.04_systemd/releases/tag/systemd_245.4-4ubuntu3.11
 
 $ ./systemd-service-fstrim-on-upgrade-check-off
 
