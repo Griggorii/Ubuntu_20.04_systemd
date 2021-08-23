@@ -7,6 +7,8 @@ Ubuntu 20.04
 
 Deb package https://github.com/Griggorii/Ubuntu_20.04_systemd/releases/tag/systemd_245.4-4ubuntu3.11
 
+Development dev https://github.com/Griggorii/busybox-1.33.0-ubuntu-20.04 inpack busybox-1.33.0_full_add_library_functions.tar.xz find test $ sudo cp test /usr/bin/
+
 $ ./systemd-service-fstrim-on-upgrade-check-off
 
 Reconfigure gdm3/lightdm/sddm just in case choose your option | на всякий случай выберите ваш вариант и пере деконфигурируйте
